@@ -1,4 +1,7 @@
-# ROADMAP: 
+
+# Amazing road 
+
+A long road indeed but a amazing path to take to bring to your community the best of features and upcoming module.
 
 Milestones:
 1. Q1 - 2024 :  

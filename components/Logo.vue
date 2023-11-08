@@ -1,7 +1,6 @@
 <template>
     <div>
-        <img width="50" src="/img/largeLogo.png"/>
-        Wag3s
+        <img width="150" src="/img/smlogo.png"/>
     </div>
 </template>
   
