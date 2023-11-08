@@ -1,4 +1,4 @@
-# Wagesfolio - Your Personalized Crypto Dashboard
+## Wagesfolio - Your Personalized Crypto Dashboard
 
 Wagesfolio is your go-to module for tracking all things crypto. Our customizable dashboard puts the power in your hands, allowing you to display essential and detailed information from any wallet. You have the flexibility to personalize your dashboard to suit your preferences.
 

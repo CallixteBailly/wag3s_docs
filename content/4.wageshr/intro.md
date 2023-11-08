@@ -1,4 +1,5 @@
-# WagesHR - Streamlined HR Management
+
+## WagesHR - Streamlined HR Management
 
 Managing your team has never been as simple and efficient as it is with WagesHR. Our robust dashboard provides you with the tools to oversee your entire workforce seamlessly, ensuring your HR processes run like a well-oiled machine. From employee onboarding to precise payroll management, WagesHR is the solution you've been waiting for.
 

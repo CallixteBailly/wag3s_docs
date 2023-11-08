@@ -1,4 +1,4 @@
-# Wage Ledger - Crypto Accounting Simplified
+## Wage Ledger - Crypto Accounting Simplified
 
 Bid farewell to the complexities of cryptocurrency accounting with Wage Ledger, your reliable solution for streamlined financial management. This module offers you the convenience of importing data from a variety of sources, encompassing Revolut, as well as traditional bank accounts. Whether you want to seamlessly manage your crypto transactions or include manual entries, Wage Ledger provides you with the security of decentralized storage options, ensuring your data is safe and accessible whenever you need it.
 
