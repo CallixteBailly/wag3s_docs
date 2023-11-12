@@ -1,12 +1,12 @@
 export default defineAppConfig({
   docus: {
     title: 'Wag3s',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    description: 'Streamline Your Finances and HR Management with Ease.',
+    image: '/Users/admin/Documents/Perso/wag3s_docs/img/LogoWw.png',
     socials: {
-      twitter: 'nuxt_js',
-      github: 'CallixteBailly/wag3s_docs',
-      youtube: 'nuxt_js',
+      twitter: 'W3Wag3s',
+      youtube: 'Wag3s',
+      medium: 'wag3s',
     },
     github: {
       dir: '',

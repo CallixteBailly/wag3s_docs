@@ -59,7 +59,7 @@ const leaveBlob = (ev) => {
 }
 
 .card:hover > .inner {
-  background: rgba(0, 0, 0, 0.735);
+  background: transparent;
   backdrop-filter: blur(50px);
 }
 

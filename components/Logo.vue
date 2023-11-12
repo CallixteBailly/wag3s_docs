@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img width="150" src="/img/smlogo.png"/>
+        <img width="150" src="/img/Slogo.png"/>
     </div>
 </template>
   
