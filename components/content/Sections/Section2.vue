@@ -118,4 +118,23 @@ export default {
         /* Fait tourner l'ellipse de 360 degrés */
     }
 }
+
+/* Styles spécifiques au mode blanc */
+.light .title {
+  color: #555; /* Une couleur gris foncé plus douce pour le titre */
+}
+
+.light .description {
+  color: #666; /* Un gris un peu plus clair pour la description en mode blanc */
+  font-weight: normal; /* Optionnel : réduire le poids de la police si nécessaire */
+}
+
+.light .details {
+  color: #777; /* Un gris encore plus clair pour les détails supplémentaires */
+}
+
+.light .moving-ellipse {
+  background-color: #e2e2e2; /* Une ellipse plus claire en mode blanc */
+}
+
 </style>

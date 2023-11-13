@@ -135,4 +135,26 @@
     max-width: 100%;
     height: auto;
 }
+
+/* Styles spécifiques au mode blanc */
+.light .title {
+    color: #555; /* Une couleur gris foncé plus douce */
+}
+
+.light .description {
+    color: #666; /* Un gris un peu plus clair pour le texte en mode blanc */
+}
+
+.light .custom-button {
+    background: #f2f2f2; /* Un fond très clair pour les boutons en mode blanc */
+    color: #555; /* Gris foncé pour le texte des boutons en mode blanc */
+}
+
+.light .custom-button:hover {
+    background: #e2e2e2; /* Un gris légèrement plus foncé au survol en mode blanc */
+}
+
+.light .decorative-ellipse {
+    background-color: #e2e2e2; /* Une ellipse plus claire en mode blanc */
+}
 </style>

@@ -65,4 +65,16 @@
     font-weight: bold;
     color: #4DA8A2;
 }
+/* Styles spécifiques au mode clair */
+.light .title {
+  color: #333; /* Une couleur plus foncée pour le titre en mode clair */
+}
+
+.light .bold-text {
+  color: #555; /* Une couleur plus douce pour le texte en mode clair */
+}
+
+.light .ellipse {
+  background-color: #e0e0e0; /* Une couleur d'ellipse plus claire en mode clair */
+}
 </style>

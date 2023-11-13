@@ -65,4 +65,17 @@
   font-weight: bold;
   color: #4DA8A2;
 }
+
+/* Styles spécifiques au mode clair pour la Section 4 */
+.light .section-header .title {
+  color: #333; /* Couleur plus foncée pour le titre en mode clair */
+}
+
+.light .image-section .ellipse {
+  background-color: #e2e2e2; /* Couleur d'ellipse plus claire en mode clair */
+}
+
+.light .bold-text {
+  color: #555; /* Couleur de texte plus douce en mode clair */
+}
 </style>

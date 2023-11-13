@@ -73,4 +73,16 @@
 .right-ellipse {
   right: -120px;
 }
+.ellipse {
+  background-color: #e2e2e2; /* Couleur plus douce pour l'ellipse en mode blanc */
+}
+
+/* Styles spécifiques au mode clair pour la Section 5 */
+.light .section-title {
+  color: #333; /* Couleur plus foncée pour le titre en mode clair */
+}
+
+.light .feature-row .ellipse {
+  background-color: #e2e2e2; /* Couleur d'ellipse plus claire en mode clair */
+}
 </style>
