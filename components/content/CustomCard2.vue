@@ -1,5 +1,5 @@
 <template>
-  <div class="card" @mousemove="moveBlob" @mouseleave="leaveBlob">
+  <div class="card" :class="{ 'light-mode': colorMode.value === 'light' }" @mousemove="moveBlob" @mouseleave="leaveBlob">
     <div class="blob" :style="{ background: color }"></div>
     <div class="inner">
       <img :src="image" alt="Card Image" class="card-image" style="margin-bottom: 6px;" />
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+const colorMode = useColorMode()
 
 const props = defineProps({
   color: String,
@@ -83,5 +83,19 @@ const leaveBlob = (ev) => {
   max-height: 30%;
   margin: auto;
   display: block;
+}
+
+.light-mode {
+  background: rgb(83, 83, 83); /* Fond clair pour la carte */
+  color: rgb(0, 0, 0); /* Texte foncé pour une meilleure lisibilité */
+}
+
+.light-mode .inner {
+  background: rgba(134, 134, 134, 0.8); /* Fond légèrement transparent pour l'intérieur de la carte */
+  color: rgb(0, 0, 0); /* Texte foncé */
+}
+
+.light-mode .card-image {
+  /* Si nécessaire, ajoutez des styles spécifiques pour l'image en mode clair */
 }
 </style>
