@@ -1,31 +1,49 @@
 <template>
-  <HeroBasic title="Bienvenue sur Notre Site" description="Découvrez nos services et produits." ctaText="En savoir plus" />
-  <HeroCard>
-
-  </HeroCard>
-  <GridCustom>
-    <CardCustom color="rgba(255, 208, 0, 0.929)" title="Hello World" description="Welcome to the grid" mode="light" />
-    <CardCustom color="rgba(0, 208, 255, 0.929)" title="Another Card" description="More content here" mode="dark" />
-    <CardCustom color="rgba(0, 208, 255, 0.929)" title="Another Card" description="More content here" mode="dark" />
-    <CardCustom color="rgba(0, 208, 255, 0.929)" title="Another Card" description="More content here" mode="dark" />
-    <CardCustom color="rgba(0, 208, 255, 0.929)" title="Another Card" description="More content here" mode="dark" />
-    <CardCustom color="rgba(0, 208, 255, 0.929)" title="Another Card" description="More content here" mode="dark" />
-    <CardCustom color="rgba(0, 208, 255, 0.929)" title="Another Card" description="More content here" mode="dark" />
-  </GridCustom>
+  <div class="snap-container">
+    <section class="snap-section" id="section1">
+      <div class="content-center">
+        <Section1/>
+      </div>
+    </section>
+    <section class="snap-section" id="section2">
+      <div class="content-center">
+        <Section2/>
+      </div>
+    </section>
+    <section class="snap-section" id="section3">
+      <div class="content-center">
+        <Section3/>
+      </div>
+    </section>
+    <section class="snap-section" id="section4">
+      <div class="content-center">
+        <Section4/>
+      </div>
+    </section>
+    <section class="snap-section" id="section5">
+      <div class="content-center">
+        <Section5/>
+      </div>
+    </section>      
+  </div>
 </template>
 
-<script setup>
-import GridCustom from '@/components/GridCustom.vue';
-import CardCustom from '@/components/CardCustom.vue';
-import HeroBasic from '@/components/HeroBasic.vue';
-import HeroCard from '@/components/HeroCard.vue';
-</script>
+<style scoped>
+.snap-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
 
-<style>
-:root {
-  --light-bg: #fff;
-  --light-text: #000;
-  --dark-bg: rgba(0, 0, 0, 0.935);
-  --dark-text: #fff;
+.snap-section {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center {
+    text-align: center; /* pour le centrage horizontal du texte et des éléments en ligne */
 }
 </style>
