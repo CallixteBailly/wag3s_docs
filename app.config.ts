@@ -1,3 +1,4 @@
+
 export default defineAppConfig({
   docus: {
     title: 'Wag3s',
