@@ -1,0 +1,10 @@
+/* assets/css/themes.css */
+
+:root {
+    --color-background-default: #fff;
+  }
+  
+  [data-theme="dark"] {
+    --color-text-default: #fff;
+  }
+  
