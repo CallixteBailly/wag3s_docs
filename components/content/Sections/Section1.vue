@@ -29,13 +29,16 @@
             </button>
         </a>
     </div>
+    <div class="image-container">
+        <div class="title">How it works</div>
+        <img src="/img/Howiw4.png" class="howiw4-image" />
+    </div>  
 </template>
 
 <style>
 .content-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -44,7 +47,7 @@
 .left-section {
     flex-grow: 1;
     text-align: left;
-    margin-right: 150px;
+    margin-right: 10px;
 }
 
 .title {
@@ -86,9 +89,12 @@
 }
 
 .button-container {
+    display: flex;
+    justify-content: flex-start;
     margin-top: 20px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .custom-button {
@@ -98,7 +104,6 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
 }
 
 .custom-button:hover {
@@ -120,5 +125,14 @@
 .docs-link {
     text-decoration: none;
     margin-left: 10px;
+}
+.image-container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.howiw4-image {
+    max-width: 100%;
+    height: auto;
 }
 </style>

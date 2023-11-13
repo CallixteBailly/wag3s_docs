@@ -1,23 +1,11 @@
 <template>
   <div class="section-header">
-    <img src="/img/ledgericon1.png" alt="WageLedger Icon" class="icon" />
-    <h1 class="title">WageLedger - Crypto Accounting Simplified</h1>
-  </div>
-
-  <div class="image-section">
-    <div class="ellipse right"></div>
-    <img src="/img/cardwl.png" class="image-left" />
-    <img src="/img/Accountinglegder.png" class="image-right" />
-  </div>
-  <p class="bold-text">Say goodbye to accounting headaches with Wage Ledger!</p>
-
-  <div class="section-header">
     <img src="/img/logo HR.png" alt="WagesHR Icon" class="icon" />
     <h1 class="title">WagesHR - Streamlined HR Management</h1>
   </div>
 
   <div class="image-section">
-    <div class="ellipse left"></div>
+    <div class="ellipse left-ellipse"></div>
     <img src="/img/WagHR.png" class="image-left" />
     <img src="/img/CardHR1.png" class="image-right" />
   </div>
@@ -28,7 +16,8 @@
 .section-header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .icon {
@@ -46,7 +35,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around; /* Ajusté pour une meilleure répartition de l'espace */
 }
 
 .ellipse {
@@ -60,19 +49,20 @@
   z-index: -1;
 }
 
-.left {
+.left-ellipse {
   left: -120px;
 }
 
-.right {
-  right: -120px;
-}
-
-.image-left {
-  margin-right: 120px;
+.image-left, .image-right {
+  width: auto; /* Ajusté pour la taille de l'image */
+  max-width: 45%; /* Ajusté pour une meilleure visibilité */
+  height: auto; /* Assure que l'image garde ses proportions */
 }
 
 .bold-text {
-  /* Votre style pour bold-text */
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4DA8A2;
 }
 </style>
