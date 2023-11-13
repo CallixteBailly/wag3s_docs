@@ -1,6 +1,6 @@
 <template>
   <div class="section-header">
-    <img src="/img/logo HR.png" alt="WagesHR Icon" class="icon" />
+    <img src="/img/logoHR.png" alt="WagesHR Icon" class="icon" />
     <h1 class="title">WagesHR - Streamlined HR Management</h1>
   </div>
 
