@@ -13,7 +13,7 @@
         Wag3s extends beyond startups, offering tailored features like Wagesfolio and the trading module for individuals. Its capabilities benefit everyone.
       </p>
     </div>
-    <img src="/img/expl2.png" alt="Explanation" class="centered-image" />
+    <img src="/img/expl3.png" alt="Explanation" class="centered-image" />
     <div class="moving-ellipse"></div>
   </div>
 
