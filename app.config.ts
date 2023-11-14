@@ -1,4 +1,3 @@
-
 export default defineAppConfig({
   docus: {
     title: 'Wag3s',
@@ -17,11 +16,11 @@ export default defineAppConfig({
       edit: true
     },
     layout: 'default',
-    aside: {
-      level: 1,
-      collapsed: true,
-      exclude: []
-    },
+    //aside: {
+    //  level: 1,
+    //  collapsed: true,
+    //  exclude: []
+    //},
     main: {
       padded: true,
       fluid: true
@@ -29,7 +28,7 @@ export default defineAppConfig({
     footer: {
       credits: {
         icon: '',
-        text: 'powered by Wag3s',
+        text: '© 2023 Wag3s.io',
         href: '',
       },
       textLinks: [
@@ -46,6 +45,6 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true
-    }
-  }
-})
+    },
+  },
+});

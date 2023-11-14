@@ -5,7 +5,7 @@
       <img :src="image" alt="Card Image" class="card-image" style="margin-bottom: 6px;" />
       <h1 :style="{ color: 'white', textAlign: 'center' }">{{ title }}</h1>
       <div style="margin-top: 10px; text-align: justify;">
-        <p :style="{ color: 'gray', fontSize: '10px' }">{{ description }}</p>
+        <p :style="{ color: 'gray', fontSize: '11px' }">{{ description }}</p>
       </div>
     </div>
   </div>

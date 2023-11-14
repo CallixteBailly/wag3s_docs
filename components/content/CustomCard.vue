@@ -5,7 +5,7 @@
       <img :src="image" alt="Card Image" class="card-image" style="margin-bottom: 6px;" />
       <h1 :style="{ color: 'white', textAlign: 'center' }">{{ title }}</h1>
       <div style="margin-top: 10px; text-align: justify;">
-        <p :style="{ color: 'gray', fontSize: '11px' }">{{ description }}</p>
+        <p :style="{ color: 'gray', fontSize: '12px' }">{{ description }}</p>
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@ const leaveBlob = (ev) => {
   border-radius: 7px;
   padding: 10px;
   width: 210px;
-  height: 210px;
+  height: 220px;
   background: rgb(0, 0, 0);
   backdrop-filter: blur(80px);
   transition: all 300ms ease-in-out;

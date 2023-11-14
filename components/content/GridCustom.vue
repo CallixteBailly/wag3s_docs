@@ -12,7 +12,7 @@
 .grid-custom {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 50px;
   justify-content: center;
   position: relative; /* Make the parent container relative */
 }
