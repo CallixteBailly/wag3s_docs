@@ -1,11 +1,11 @@
 <template>
     <div class="section-header">
         <img src="/public/ledgericon1.png" alt="WageFolio Icon" class="icon" />
-        <h1 class="title">WageLedger - Crypto Accounting Simplified</h1>
+        <h1 class="gtitle">WageLedger - Crypto Accounting Simplified</h1>
     </div>
 <br>
     <div class="image-section">
-        <div class="ellipse right-ellipse"></div>
+        <div class="greenellipse right-ellipse"></div>
         <img src="/public/cardwl.png" class="image-left" />
         <img src="/public/Accountinglegder.png" class="image-right" />
     </div>
@@ -25,7 +25,7 @@
     margin-right: 10px;
 }
 
-.title {
+.gtitle {
     color: #4DA8A2;
     font-weight: bold;
     font-size: 25px;
@@ -38,7 +38,7 @@
     justify-content: space-around; /* Ajusté pour une meilleure répartition de l'espace */
 }
 
-.ellipse {
+.greenellipse {
     width: 500px;
     height: 80px;
     background-color: #33fffb;
@@ -66,15 +66,9 @@
     color: #4DA8A2;
 }
 /* Styles spécifiques au mode clair */
-.light .title {
-  color: #333; /* Une couleur plus foncée pour le titre en mode clair */
-}
 
 .light .bold-text {
   color: #555; /* Une couleur plus douce pour le texte en mode clair */
 }
 
-.light .ellipse {
-  background-color: #e0e0e0; /* Une couleur d'ellipse plus claire en mode clair */
-}
 </style>

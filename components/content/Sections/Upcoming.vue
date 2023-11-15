@@ -1,10 +1,10 @@
 <template>
-  <h1 class="section-title">
+  <h1 class="gtitle">
     Upcoming features - some hints
   </h1>
 
   <div class="feature-row">
-    <div class="ellipse left-ellipse"></div>
+    <div class="greenellipse left-ellipse"></div>
     <img src="/public/Tradw2.png" alt="Feature 1" class="feature-image" />
     <img src="/public/tokeng2.png" alt="Feature 2" class="feature-image" />
     <img src="/public/watchw2.png" alt="Feature 3" class="feature-image" />
@@ -13,12 +13,12 @@
   <div class="feature-row">
     <img src="/public/cart2.png" alt="Feature 4" class="feature-image" />
     <img src="/public/multiw2.png" alt="Feature 5" class="feature-image" />
-    <div class="ellipse right-ellipse"></div>
+    <div class="greenellipse right-ellipse"></div>
   </div>
 </template>
 
 <style>
-.section-title {
+.gtitle {
   color: #4DA8A2;
   font-weight: bold;
   font-size: 25px;
@@ -41,7 +41,7 @@
   height: auto;
 }
 
-.ellipse {
+.greenellipse {
   width: 500px;
   height: 80px;
   background-color: #33fffb;
@@ -60,16 +60,5 @@
 .right-ellipse {
   right: -120px;
 }
-.ellipse {
-  background-color: #e2e2e2; /* Couleur plus douce pour l'ellipse en mode blanc */
-}
 
-/* Styles spécifiques au mode clair pour la Section 5 */
-.light .section-title {
-  color: #333; /* Couleur plus foncée pour le titre en mode clair */
-}
-
-.light .feature-row .ellipse {
-  background-color: #e2e2e2; /* Couleur d'ellipse plus claire en mode clair */
-}
 </style>

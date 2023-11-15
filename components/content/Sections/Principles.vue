@@ -1,6 +1,6 @@
 <template>
   <div class="section-header">
-    <h1 class="title">Principles</h1>
+    <h1 class="gtitle">Principles</h1>
   </div>
 
   <div class="content-container">
@@ -65,9 +65,10 @@ export default {
   margin-right: 10px;
 }
 
-.title {
+.gtitle {
   font-size: 28px;
   font-weight: bold;
+  color: #4DA8A2;
 }
 
 .content-container {

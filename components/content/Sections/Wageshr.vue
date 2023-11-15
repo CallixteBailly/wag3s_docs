@@ -1,11 +1,11 @@
 <template>
   <div class="section-header">
     <img src="/public/logoHR.png" alt="WagesHR Icon" class="icon" />
-    <h1 class="title">WagesHR - Streamlined HR Management</h1>
+    <h1 class="gtitle">WagesHR - Streamlined HR Management</h1>
   </div>
 
   <div class="image-section">
-    <div class="ellipse left-ellipse"></div>
+    <div class="greenellipse left-ellipse"></div>
     <img src="/public/WagHR.png" class="image-left" />
     <img src="/public/CardHR1.png" class="image-right" />
   </div>
@@ -25,7 +25,7 @@
   margin-right: 10px;
 }
 
-.title {
+.gtitle {
   color: #4DA8A2;
   font-weight: bold;
   font-size: 25px;
@@ -38,7 +38,7 @@
   justify-content: space-around; /* Ajusté pour une meilleure répartition de l'espace */
 }
 
-.ellipse {
+.greenellipse {
   width: 500px;
   height: 80px;
   background-color: #33fffb;
@@ -66,16 +66,4 @@
   color: #4DA8A2;
 }
 
-/* Styles spécifiques au mode clair pour la Section 4 */
-.light .section-header .title {
-  color: #333; /* Couleur plus foncée pour le titre en mode clair */
-}
-
-.light .image-section .ellipse {
-  background-color: #e2e2e2; /* Couleur d'ellipse plus claire en mode clair */
-}
-
-.light .bold-text {
-  color: #555; /* Couleur de texte plus douce en mode clair */
-}
 </style>
