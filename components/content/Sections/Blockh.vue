@@ -1,14 +1,10 @@
 <template>
-    <div class="content-container">
-        <div class="left-section">
-            <br>
+    <div class="section-content">
+        <div class="section-left">
             <div class="Btitle">Wag3s</div>
-            <br>
-            <br>
             <h2 class="subtitle">
                 Streamline Your Finances and HR Management with Ease.
             </h2>
-            <br>
             <p class="description">
                 Join the Future with Wag3s! Are you ready to take your startup or retail business to the next level in
                 the Web3 world? Wag3s is here to support your journey. Explore our powerful modules, embrace the
@@ -16,9 +12,9 @@
             </p>
             <div class="decorative-ellipse"></div>
         </div>
-        <div class="right-section">
+        <div class="section-right">
             <br>
-            <img class="logo-image" src="/public/LogoWw.png" alt="Image Description">
+            <img class="logo-image" src="/LogoWw.png" alt="Image Description">
         </div>
     </div>
 
@@ -34,9 +30,9 @@
         </a>
     </div>
     <div class="image-container">
-        <div class="gtitle">How it works</div>
-        <img src="/public/Howiw4.png" class="howiw4-image" />
-    </div>  
+        <div class="Gtitle">How it works</div>
+        <img src="/Howiw4.png" class="howiw4-image" />
+    </div>
 </template>
 
 <style scoped>
@@ -44,11 +40,18 @@
     color: #33fffb;
     font-size: 70px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
-</style>
 
-<style>
-.content-container {
+.Gtitle {
+    color: #4da8a2;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-content {
     display: flex;
     justify-content: center;
     max-width: 1200px;
@@ -56,13 +59,13 @@
     position: relative;
 }
 
-.left-section {
+.section-left {
     flex-grow: 1;
     text-align: left;
     margin-right: 100px;
 }
 
-.gtitle {
+.section-title {
     color: #33fffb;
     font-size: 80px;
     font-weight: 600;
@@ -71,6 +74,7 @@
 .subtitle {
     font-size: 45px;
     line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .description {
@@ -92,7 +96,7 @@
     z-index: -1;
 }
 
-.right-section {
+.section-right {
     flex-grow: 1;
     text-align: right;
     display: flex;
@@ -142,6 +146,7 @@
     text-decoration: none;
     margin-left: 10px;
 }
+
 .image-container {
     text-align: center;
     margin-top: 200px;
@@ -155,14 +160,16 @@
 /* Styles spécifiques au mode blanc */
 
 .light .Btitle {
-    color: #4DA8A2; /* titre en secondaire */
+    color: #4DA8A2;
+    /* titre en secondaire */
 }
+
 .light .decorative-ellipse {
     filter: blur(60px);
     height: 200px;
-} 
-.light .subtitle {
-  color: #777; /* Un gris encore plus clair pour les détails supplémentaires */
 }
 
-</style>
+.light .subtitle {
+    color: #777;
+    /* Un gris encore plus clair pour les détails supplémentaires */
+}</style>

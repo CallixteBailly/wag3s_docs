@@ -1,37 +1,24 @@
 <template>
-  <h1 class="gtitle">
+  <h1 class="section-title">
     Upcoming features - some hints
   </h1>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
   
   <div class="feature-row">
     <div class="greenellipse left-ellipse"></div>
-    <img src="/public/Tradw2.png" alt="Feature 1" class="feature-image" />
-    <img src="/public/tokeng2.png" alt="Feature 2" class="feature-image" />
-    <img src="/public/watchw2.png" alt="Feature 3" class="feature-image" />
+    <img src="/Tradw2.png" alt="Feature 1" class="feature-image" />
+    <img src="/tokeng2.png" alt="Feature 2" class="feature-image" />
+    <img src="/watchw2.png" alt="Feature 3" class="feature-image" />
   </div>
 
   <div class="feature-row">
-    <img src="/public/cart2.png" alt="Feature 4" class="feature-image" />
-    <img src="/public/multiw2.png" alt="Feature 5" class="feature-image" />
+    <img src="/cart2.png" alt="Feature 4" class="feature-image" />
+    <img src="/multiw2.png" alt="Feature 5" class="feature-image" />
     <div class="greenellipse right-ellipse"></div>
   </div>
  
 </template>
 
-<style>
-.gtitle {
-  color: #4DA8A2;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
+<style scoped>
 .feature-row {
   position: relative;
   display: flex;

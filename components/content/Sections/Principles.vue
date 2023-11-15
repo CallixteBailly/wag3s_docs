@@ -1,20 +1,26 @@
 <template>
   <div class="section-header">
-    <h1 class="gtitle">Principles</h1>
+    <img src="/iconWagefolio.png" alt="WageFolio Icon" class="section-icon" />
+    <h1 class="section-title">Principles</h1>
   </div>
 
-  <div class="content-container">
-    <div class="text-container">
-      <p class="description">
-        A trio of indispensable modules for streamlined administration and seamless operations.
-      </p>
-      <br>
-      <p class="details">
-        Wag3s extends beyond startups, offering tailored features like Wagesfolio and the trading module for individuals. Its capabilities benefit everyone.
-      </p>
+  <div class="section-content">
+    <div class="section-left">
+      <div class="description">
+        <h3>
+          A trio of indispensable modules for streamlined administration and seamless operations.
+        </h3>
+        <p class="details">
+          Wag3s extends beyond startups, offering tailored features like Wagesfolio and the trading module for
+          individuals. Its capabilities benefit everyone.
+        </p>
+      </div>
+
     </div>
-    <img src="/public/expl3.png" alt="Explanation" class="centered-image" />
-    <div class="moving-ellipse"></div>
+    <div class="section-right">
+      <img src="/expl3.png" alt="Explanation" class="centered-image" />
+      <div class="moving-ellipse"></div>
+    </div>
   </div>
 
   <GridCustom>
@@ -32,19 +38,19 @@ export default {
           color: "rgba(51, 255, 251, 0.929)",
           title: "Web3 & decentralized",
           description: "Wag3s is not just web3 friendly but aims to be completely secure and decentralized. Our features will evolve until they are in the hands of everyone.",
-          image: "/public/iconwd.png"
+          image: "/iconwd.png"
         },
         {
           color: "rgba(51, 255, 251, 0.929)",
           title: "Peace of mind",
           description: "Experience peace of mind with security and automation firmly in your control.",
-          image: "/public/iconpom.png"
+          image: "/iconpom.png"
         },
         {
           color: "rgba(51, 255, 251, 0.929)",
           title: "Institutions",
           description: "Wag3s bridges the traditional and crypto worlds, ensuring mass adoption by complying with crypto regulations. It empowers traditional businesses to leverage crypto technology seamlessly.",
-          image: "/public/iconIns.png"
+          image: "/iconIns.png"
         }
       ]
     };
@@ -54,85 +60,60 @@ export default {
 
 
 <style scoped>
-.section-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.icon {
-  margin-right: 10px;
-}
-
-.gtitle {
-  font-size: 28px;
-  font-weight: bold;
-  color: #4DA8A2;
-}
-
-.content-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
-.text-container {
-  max-width: 40%;
-}
-
 .description {
+  width: 550px;
+}
+
+.description>h3 {
+  color: #4da8a2;
+  font-size: larger;
   font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.description>p {
+  margin-bottom: 5px;
 }
 
 .details {
+  font-weight: normal;
   font-size: 16px;
-  text-align: justify;
 }
 
 .centered-image {
-  max-width: 50%;
+  max-width: 130%;
   height: auto;
 }
 
 .moving-ellipse {
-    width: 500px;
-    height: 80px;
-    margin-right: 70px;
-    background-color: #33fffb;
-    border-radius: 50%;
-    filter: blur(70px);
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%) rotate(0deg);
-    z-index: -1;
-    animation: rotateEllipse 5s linear infinite;
-    /* Ajustez la durée de l'animation selon vos besoins */
+  width: 500px;
+  height: 100px;
+  background-color: #33fffb;
+  border-radius: 50%;
+  filter: blur(70px);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%) rotate(0deg);
+  z-index: -1;
+  animation: rotateEllipse-7811efa7 5s linear infinite;
 }
 
 @keyframes rotateEllipse {
-    to {
-        transform: translate(0, -50%) rotate(360deg);
-        /* Fait tourner l'ellipse de 360 degrés */
-    }
+  to {
+    transform: translate(0, -50%) rotate(360deg);
+  }
 }
 
-/* Styles spécifiques au mode blanc */
-
 .light .description {
-  font-weight: normal; /* Optionnel : réduire le poids de la police si nécessaire */
+  font-weight: normal;
 }
 
 .light .details {
-  color: #777; /* Un gris encore plus clair pour les détails supplémentaires */
+  color: #777;
 }
 
 .light .moving-ellipse {
   filter: blur(30px);
 }
-
 </style>

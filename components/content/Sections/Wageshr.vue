@@ -1,43 +1,22 @@
 <template>
   <div class="section-header">
-    <img src="/public/logoHR.png" alt="WagesHR Icon" class="icon" />
-    <h1 class="gtitle">WagesHR - Streamlined HR Management</h1>
+    <img src="/logoHR.png" alt="WagesHR Icon" class="section-icon" />
+    <h1 class="section-title">WagesHR - Streamlined HR Management</h1>
   </div>
 
-  <div class="image-section">
-    <div class="greenellipse left-ellipse"></div>
-    <img src="/public/WagHR.png" class="image-left" />
-    <img src="/public/CardHR1.png" class="image-right" />
+  <div class="section-content">
+    <div class="section-left">
+      <div class="greenellipse left-ellipse"></div>
+      <img src="/WagHR.png"/>
+    </div>
+    <div class="section-right">
+      <img src="/CardHR1.png" />
+    </div>
   </div>
   <p class="bold-text">Managing your team has never been easier than with WagesHR!</p>
 </template>
 
-<style>
-.section-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.icon {
-  width: 40px;
-  margin-right: 10px;
-}
-
-.gtitle {
-  color: #4DA8A2;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.image-section {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-around; /* Ajusté pour une meilleure répartition de l'espace */
-}
-
+<style scoped>
 .greenellipse {
   width: 500px;
   height: 80px;
@@ -52,18 +31,4 @@
 .left-ellipse {
   left: -120px;
 }
-
-.image-left, .image-right {
-  width: auto; /* Ajusté pour la taille de l'image */
-  max-width: 45%; /* Ajusté pour une meilleure visibilité */
-  height: auto; /* Assure que l'image garde ses proportions */
-}
-
-.bold-text {
-  text-align: center;
-  margin-top: 20px;
-  font-weight: bold;
-  color: #4DA8A2;
-}
-
 </style>
