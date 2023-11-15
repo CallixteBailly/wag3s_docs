@@ -16,10 +16,9 @@
             </p>
             <div class="decorative-ellipse"></div>
         </div>
-
         <div class="right-section">
             <br>
-            <img class="logo-image" src="/img/LogoWw.png" alt="Image Description">
+            <img class="logo-image" src="/public/LogoWw.png" alt="Image Description">
         </div>
     </div>
 
@@ -36,7 +35,7 @@
     </div>
     <div class="image-container">
         <div class="title">How it works</div>
-        <img src="/img/Howiw4.png" class="howiw4-image" />
+        <img src="/public/Howiw4.png" class="howiw4-image" />
     </div>  
 </template>
 
@@ -154,20 +153,16 @@
 }
 
 /* Styles spécifiques au mode blanc */
-.light .title {
-    color: #555; /* Une couleur gris foncé plus douce */
-}
 
-.light .custom-button {
-    background: #f2f2f2; /* Un fond très clair pour les boutons en mode blanc */
-    color: #555; /* Gris foncé pour le texte des boutons en mode blanc */
+.light .Btitle {
+    color: #4DA8A2; /* titre en secondaire */
 }
-
-.light .custom-button:hover {
-    background: #e2e2e2; /* Un gris légèrement plus foncé au survol en mode blanc */
-}
-
 .light .decorative-ellipse {
-    background-color: #e2e2e2; /* Une ellipse plus claire en mode blanc */
+    filter: blur(60px);
+    height: 200px;
+} 
+.light .subtitle {
+  color: #777; /* Un gris encore plus clair pour les détails supplémentaires */
 }
+
 </style>

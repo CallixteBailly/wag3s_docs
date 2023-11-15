@@ -1,19 +1,19 @@
 <template>
   <div class="section-header">
-    <img src="/img/ledgericon1.png" alt="WageLedger Icon" class="icon" />
     <h1 class="title">Principles</h1>
   </div>
 
   <div class="content-container">
     <div class="text-container">
       <p class="description">
-        Wag3s - A trio of indispensable modules for streamlined administration and seamless operations.
+        A trio of indispensable modules for streamlined administration and seamless operations.
       </p>
+      <br>
       <p class="details">
         Wag3s extends beyond startups, offering tailored features like Wagesfolio and the trading module for individuals. Its capabilities benefit everyone.
       </p>
     </div>
-    <img src="/img/expl3.png" alt="Explanation" class="centered-image" />
+    <img src="/public/expl3.png" alt="Explanation" class="centered-image" />
     <div class="moving-ellipse"></div>
   </div>
 
@@ -32,19 +32,19 @@ export default {
           color: "rgba(51, 255, 251, 0.929)",
           title: "Web3 & decentralized",
           description: "Wag3s is not just web3 friendly but aims to be completely secure and decentralized. Our features will evolve until they are in the hands of everyone.",
-          image: "/img/iconwd.png"
+          image: "/public/iconwd.png"
         },
         {
           color: "rgba(51, 255, 251, 0.929)",
           title: "Peace of mind",
           description: "Experience peace of mind with security and automation firmly in your control.",
-          image: "/img/iconpom.png"
+          image: "/public/iconpom.png"
         },
         {
           color: "rgba(51, 255, 251, 0.929)",
           title: "Institutions",
           description: "Wag3s bridges the traditional and crypto worlds, ensuring mass adoption by complying with crypto regulations. It empowers traditional businesses to leverage crypto technology seamlessly.",
-          image: "/img/iconIns.png"
+          image: "/public/iconIns.png"
         }
       ]
     };
@@ -89,6 +89,7 @@ export default {
 
 .details {
   font-size: 16px;
+  text-align: justify;
 }
 
 .centered-image {
@@ -120,12 +121,8 @@ export default {
 }
 
 /* Styles spécifiques au mode blanc */
-.light .title {
-  color: #555; /* Une couleur gris foncé plus douce pour le titre */
-}
 
 .light .description {
-  color: #666; /* Un gris un peu plus clair pour la description en mode blanc */
   font-weight: normal; /* Optionnel : réduire le poids de la police si nécessaire */
 }
 
@@ -134,7 +131,7 @@ export default {
 }
 
 .light .moving-ellipse {
-  background-color: #e2e2e2; /* Une ellipse plus claire en mode blanc */
+  filter: blur(30px);
 }
 
 </style>
