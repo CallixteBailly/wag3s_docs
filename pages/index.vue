@@ -1,28 +1,38 @@
 <template>
   <div class="snap-container">
-    <section class="snap-section" id="section1">
-      <div class="content-center">
-        <Section1/>
+    <section class="snap-section" id="blockh">
+      <div class="content-center-horizontal content-center-vertical">
+        <Blockh/>
       </div>
     </section>
-    <section class="snap-section" id="section2">
-      <div class="content-center">
-        <Section2/>
+    <br>
+    <section class="snap-section" id="principles">
+      <div class="content-center-horizontal content-center-vertical">
+        <Principles/>
       </div>
     </section>
-    <section class="snap-section" id="section3">
-      <div class="content-center">
-        <Section3/>
+    <br>
+    <section class="snap-section" id="wagesfolio">
+      <div class="content-center-horizontal content-center-vertical">
+        <Wagesfolio/>
       </div>
     </section>
-    <section class="snap-section" id="section4">
-      <div class="content-center">
-        <Section4/>
+    <br>
+    <section class="snap-section" id="wageledger">
+      <div class="content-center-horizontal content-center-vertical">
+        <Wageledger/>
       </div>
     </section>
-    <section class="snap-section" id="section5">
-      <div class="content-center">
-        <Section5/>
+    <br>
+    <section class="snap-section" id="wageshr">
+      <div class="content-center-horizontal content-center-vertical">
+        <Wageshr/>
+      </div>
+    </section>
+    <br>
+    <section class="snap-section" id="upcoming">
+      <div class="content-center-horizontal content-center-vertical">
+        <Upcoming/>
       </div>
     </section>      
   </div>
@@ -39,11 +49,16 @@
     scroll-snap-align: start;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* Ajout de la direction de colonne pour garder l'alignement vertical */
+    max-width: 1200px; /* Limite la largeur à 1200px */
+    margin: 0 auto; /* Centre la section horizontalement */
 }
 
-.content-center {
+.content-center-horizontal {
     text-align: center; /* pour le centrage horizontal du texte et des éléments en ligne */
+}
+
+.content-center-vertical {
+    margin-top: 0; /* Ajustement pour garder l'alignement vertical en haut */
 }
 </style>

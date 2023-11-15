@@ -1,13 +1,13 @@
 <template>
     <div class="section-header">
-        <img src="/img/ledgericon1.png" alt="WageLedger Icon" class="icon" />
+        <img src="/public/ledgericon1.png" alt="WageFolio Icon" class="icon" />
         <h1 class="title">WageLedger - Crypto Accounting Simplified</h1>
     </div>
-
+<br>
     <div class="image-section">
         <div class="ellipse right-ellipse"></div>
-        <img src="/img/cardwl.png" class="image-left" />
-        <img src="/img/Accountinglegder.png" class="image-right" />
+        <img src="/public/cardwl.png" class="image-left" />
+        <img src="/public/Accountinglegder.png" class="image-right" />
     </div>
     <p class="bold-text">Say goodbye to accounting headaches with Wage Ledger!</p>
 </template>

@@ -1,13 +1,13 @@
 <template>
   <div class="section-header">
-    <img src="/img/logoHR.png" alt="WagesHR Icon" class="icon" />
+    <img src="/public/logoHR.png" alt="WagesHR Icon" class="icon" />
     <h1 class="title">WagesHR - Streamlined HR Management</h1>
   </div>
 
   <div class="image-section">
     <div class="ellipse left-ellipse"></div>
-    <img src="/img/WagHR.png" class="image-left" />
-    <img src="/img/CardHR1.png" class="image-right" />
+    <img src="/public/WagHR.png" class="image-left" />
+    <img src="/public/CardHR1.png" class="image-right" />
   </div>
   <p class="bold-text">Managing your team has never been easier than with WagesHR!</p>
 </template>
