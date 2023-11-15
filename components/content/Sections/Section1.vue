@@ -1,10 +1,14 @@
 <template>
     <div class="content-container">
         <div class="left-section">
-            <div class="title">Wag3s</div>
+            <br>
+            <div class="Btitle">Wag3s</div>
+            <br>
+            <br>
             <h2 class="subtitle">
                 Streamline Your Finances and HR Management with Ease.
             </h2>
+            <br>
             <p class="description">
                 Join the Future with Wag3s! Are you ready to take your startup or retail business to the next level in
                 the Web3 world? Wag3s is here to support your journey. Explore our powerful modules, embrace the
@@ -14,6 +18,7 @@
         </div>
 
         <div class="right-section">
+            <br>
             <img class="logo-image" src="/img/LogoWw.png" alt="Image Description">
         </div>
     </div>
@@ -35,6 +40,14 @@
     </div>  
 </template>
 
+<style scoped>
+.Btitle {
+    color: #33fffb;
+    font-size: 70px;
+    font-weight: 600;
+}
+</style>
+
 <style>
 .content-container {
     display: flex;
@@ -47,7 +60,7 @@
 .left-section {
     flex-grow: 1;
     text-align: left;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 .title {
@@ -57,13 +70,15 @@
 }
 
 .subtitle {
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 1.2;
 }
 
 .description {
     color: #4DA8A2;
     font-weight: bold;
     font-size: 15px;
+    text-align: justify;
 }
 
 .decorative-ellipse {
@@ -81,6 +96,8 @@
 .right-section {
     flex-grow: 1;
     text-align: right;
+    display: flex;
+    align-items: center;
 }
 
 .logo-image {
@@ -139,10 +156,6 @@
 /* Styles spécifiques au mode blanc */
 .light .title {
     color: #555; /* Une couleur gris foncé plus douce */
-}
-
-.light .description {
-    color: #666; /* Un gris un peu plus clair pour le texte en mode blanc */
 }
 
 .light .custom-button {
