@@ -2,7 +2,12 @@
   <h1 class="gtitle">
     Upcoming features - some hints
   </h1>
-
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
   <div class="feature-row">
     <div class="greenellipse left-ellipse"></div>
     <img src="/public/Tradw2.png" alt="Feature 1" class="feature-image" />
@@ -15,6 +20,7 @@
     <img src="/public/multiw2.png" alt="Feature 5" class="feature-image" />
     <div class="greenellipse right-ellipse"></div>
   </div>
+ 
 </template>
 
 <style>
@@ -29,15 +35,16 @@
 .feature-row {
   position: relative;
   display: flex;
+  flex-wrap: wrap; /* Permet aux images de passer à la ligne sur les petits écrans */
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
 }
 
 .feature-image {
-  margin: 0 35px; /* Ajusté pour un meilleur espacement */
-  width: auto; /* Assure que l'image garde ses proportions */
-  max-width: 20%; /* Ajusté pour une meilleure visibilité */
+  margin: 0 20px; /* Ajustez l'espacement */
+  width: auto;
+  max-width: 100%; /* Les images prennent 100% de la largeur disponible */
   height: auto;
 }
 
@@ -61,4 +68,10 @@
   right: -120px;
 }
 
+/* Utiliser une media query pour ajuster l'espacement en fonction de la taille de l'écran */
+@media (min-width: 768px) {
+  .feature-image {
+    margin: 0 35px; /* Ajustez l'espacement pour les écrans plus larges */
+  }
+}
 </style>

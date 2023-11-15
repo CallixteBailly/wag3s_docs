@@ -34,7 +34,7 @@
         </a>
     </div>
     <div class="image-container">
-        <div class="title">How it works</div>
+        <div class="gtitle">How it works</div>
         <img src="/public/Howiw4.png" class="howiw4-image" />
     </div>  
 </template>
@@ -62,7 +62,7 @@
     margin-right: 100px;
 }
 
-.title {
+.gtitle {
     color: #33fffb;
     font-size: 80px;
     font-weight: 600;
