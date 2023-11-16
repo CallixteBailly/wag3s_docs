@@ -29,10 +29,6 @@
             </button>
         </a>
     </div>
-    <div class="image-container">
-        <div class="Gtitle">How it works</div>
-        <img src="/Howiw4.png" class="howiw4-image" />
-    </div>
 </template>
 
 <style scoped>
@@ -41,14 +37,6 @@
     font-size: 70px;
     font-weight: 600;
     margin-bottom: 50px;
-}
-
-.Gtitle {
-    color: #4da8a2;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 .section-content {
@@ -63,12 +51,6 @@
     flex-grow: 1;
     text-align: left;
     margin-right: 100px;
-}
-
-.section-title {
-    color: #33fffb;
-    font-size: 80px;
-    font-weight: 600;
 }
 
 .subtitle {

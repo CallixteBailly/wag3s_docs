@@ -31,6 +31,7 @@
 .feature-image {
   margin: 0 20px; /* Ajustez l'espacement */
   width: auto;
+  max-width: 200px;
   max-width: 100%; /* Les images prennent 100% de la largeur disponible */
   height: auto;
 }

@@ -40,9 +40,9 @@ const leaveBlob = (ev) => {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
 }
 .card {
+  margin: 0 20px;
   background: rgb(0, 0, 0);
   padding: 3px;
   border-radius: 12px;

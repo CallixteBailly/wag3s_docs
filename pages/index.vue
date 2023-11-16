@@ -6,6 +6,12 @@
       </div>
     </section>
     <br>
+    <section class="snap-section" id="howitwork">
+      <div class="content-center">
+        <Howitwork />
+      </div>
+    </section>
+    <br>
     <section class="snap-section" id="principles">
       <div class="content-center">
         <Principles />
@@ -47,7 +53,7 @@
 }
 
 .section-title {
-  color: #4DA8A2;
+  color: #33fffb;
   font-weight: bold;
   font-size: 25px;
 }
@@ -107,4 +113,17 @@
   text-align: center;
   /* pour le centrage horizontal du texte et des éléments en ligne */
 }
+
+ /* ******mode light******** */
+
+
+.light .title {
+  color: #4DA8A2;
+}
+
+.light .section-title {
+  color: #4DA8A2;
+}
+
+
 </style>

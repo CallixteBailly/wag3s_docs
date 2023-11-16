@@ -5,13 +5,13 @@
     </div>
     <div class="section-content">
         <div class="section-left">
-            <img :src="colorMode.value === 'light' ? '/Wagesfolio_light.png' : '/Wagesfolio.png'" />
+            <div class="greenellipse right-ellipse"></div>
+            <img src="/Wagesfolio.png" />
         </div>
         <div class="section-right">
-            <img :src="colorMode.value === 'light' ? '/cardwf_light.png' : '/cardwf.png'"  />
+            <img src="/cardwf.png" />
         </div>
     </div>
-
     <p class="bold-text">But that's just the tip of the iceberg. Wagesfolio offers a plethora of additional features</p>
 
     <GridCustom>
@@ -24,9 +24,8 @@
             image="/iconbacup.png" />
     </GridCustom>
 </template>
-<script setup>
-const colorMode = useColorMode()
-</script>
+
+
 <style scoped>
 
 .greenellipse {

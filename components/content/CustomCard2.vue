@@ -41,10 +41,10 @@ const leaveBlob = (ev) => {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* Adjust the gap for more space between cards */
 }
 
 .card {
+  margin: 0 20px;
   background: rgb(0, 0, 0);
   padding: 3px;
   border-radius: 25px; /* Adjust the border-radius for more rounded corners */
@@ -89,7 +89,9 @@ const leaveBlob = (ev) => {
   background: rgb(83, 83, 83); /* Fond clair pour la carte */
   color: rgb(0, 0, 0); /* Texte foncé pour une meilleure lisibilité */
 }
-
+.light-mode .description {
+ color: rgba(51, 255, 251, 0.929); /* Texte foncé */
+}
 .light-mode .inner {
   background: rgba(134, 134, 134, 0.8); /* Fond légèrement transparent pour l'intérieur de la carte */
   color: rgb(0, 0, 0); /* Texte foncé */
