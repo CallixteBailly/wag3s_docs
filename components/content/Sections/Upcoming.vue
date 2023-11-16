@@ -5,14 +5,14 @@
   
   <div class="feature-row">
     <div class="greenellipse left-ellipse"></div>
-    <img src="/Tradw2.png" alt="Feature 1" class="feature-image" />
-    <img src="/tokeng2.png" alt="Feature 2" class="feature-image" />
-    <img src="/watchw2.png" alt="Feature 3" class="feature-image" />
+    <img src="/Tradwwhite.png" alt="Feature 1" class="feature-image" />
+    <img src="/tokengwhite.png" alt="Feature 2" class="feature-image" />
+    <img src="/watchwhite.png" alt="Feature 3" class="feature-image" />
   </div>
 
   <div class="feature-row">
-    <img src="/cart2.png" alt="Feature 4" class="feature-image" />
-    <img src="/multiw2.png" alt="Feature 5" class="feature-image" />
+    <img src="/cartwhite.png" alt="Feature 4" class="feature-image" />
+    <img src="/multiwhite.png" alt="Feature 5" class="feature-image" />
     <div class="greenellipse right-ellipse"></div>
   </div>
  

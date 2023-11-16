@@ -168,8 +168,4 @@
     filter: blur(60px);
     height: 200px;
 }
-
-.light .subtitle {
-    color: #777;
-    /* Un gris encore plus clair pour les détails supplémentaires */
-}</style>
+</style>
