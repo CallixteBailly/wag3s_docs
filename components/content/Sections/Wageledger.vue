@@ -12,7 +12,6 @@
             <img src="/Accountinglegder.png" />
         </div>
     </div>
-
     <p class="bold-text">Say goodbye to accounting headaches with Wage Ledger!</p>
 </template>
   

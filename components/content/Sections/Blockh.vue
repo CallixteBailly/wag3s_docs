@@ -39,20 +39,6 @@
     margin-bottom: 50px;
 }
 
-.section-content {
-    display: flex;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.section-left {
-    flex-grow: 1;
-    text-align: left;
-    margin-right: 100px;
-}
-
 .subtitle {
     font-size: 45px;
     line-height: 1.2;
@@ -78,15 +64,8 @@
     z-index: -1;
 }
 
-.section-right {
-    flex-grow: 1;
-    text-align: right;
-    display: flex;
-    align-items: center;
-}
-
 .logo-image {
-    width: 1000px;
+    width: 800px;
     max-width: 100%;
 }
 

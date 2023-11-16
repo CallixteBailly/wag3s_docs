@@ -49,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .section-title {
@@ -97,8 +97,9 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 600;
   color: #4DA8A2;
+  font-size: 22px;
 }
 
 .snap-section {
@@ -124,6 +125,5 @@
 .light .section-title {
   color: #4DA8A2;
 }
-
 
 </style>
